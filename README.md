@@ -1,0 +1,3 @@
+# eScience
+
+Project structure initialized.
