@@ -1,3 +1,8 @@
+---
+title: FAQ
+nav_order: 8
+---
+
 # FAQ
 
 ## Do I need to install anything before the tutorial?

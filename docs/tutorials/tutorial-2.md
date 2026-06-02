@@ -1,3 +1,8 @@
+---
+title: Tutorial 2
+nav_order: 5
+---
+
 # Tutorial 2
 
 ## Hyperparameter Optimization with Ray Tune and RAPIDS

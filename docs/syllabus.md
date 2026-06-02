@@ -1,3 +1,8 @@
+---
+title: Syllabus
+nav_order: 3
+---
+
 # Syllabus
 
 ## Tutorial goals

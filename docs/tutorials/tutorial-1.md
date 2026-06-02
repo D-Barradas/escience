@@ -1,3 +1,8 @@
+---
+title: Tutorial 1
+nav_order: 4
+---
+
 # Tutorial 1
 
 ## Hyperparameter Optimization with Scikit-learn and RAPIDS

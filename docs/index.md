@@ -1,4 +1,9 @@
-# eScience 2025 Tutorial
+---
+title: Home
+nav_order: 1
+---
+
+# eScience 2026 Tutorial
 
 ## Fundamentals of Accelerated Data Science
 

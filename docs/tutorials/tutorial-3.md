@@ -1,3 +1,8 @@
+---
+title: Tutorial 3
+nav_order: 6
+---
+
 # Tutorial 3
 
 ## Deep Learning Workflows with Skorch and RAPIDS

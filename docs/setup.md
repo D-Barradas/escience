@@ -1,3 +1,8 @@
+---
+title: Setup
+nav_order: 2
+---
+
 # Setup
 
 The tutorial is designed to run in a browser-based GPU environment. The recommended option is **Google Colab with a GPU runtime**. If the conference provides a cloud GPU environment, use that access first and fall back to Colab if needed.
