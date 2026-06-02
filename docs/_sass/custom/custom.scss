@@ -1,0 +1,42 @@
+/* Corner logos loaded through Just the Docs custom Sass pipeline. */
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  right: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+body::before {
+  top: 16px;
+  width: 120px;
+  height: 120px;
+  background-image: url("/assets/images/kvl_blue_icon.png");
+}
+
+body::after {
+  bottom: 16px;
+  width: 220px;
+  height: 90px;
+  background-image: url("/assets/images/logo-right-small.png");
+}
+
+@media (max-width: 768px) {
+  body::before {
+    width: 84px;
+    height: 84px;
+    right: 10px;
+    top: 10px;
+  }
+
+  body::after {
+    width: 150px;
+    height: 64px;
+    right: 10px;
+    bottom: 10px;
+  }
+}
