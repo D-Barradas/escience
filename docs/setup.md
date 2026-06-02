@@ -7,7 +7,9 @@ The tutorial is designed to run in a browser-based GPU environment. The recommen
 - a laptop with a modern web browser
 - a stable internet connection
 - a Google account for Colab access
-- basic Python familiarity
+- working knowledge of Python and notebooks
+- familiarity with pandas or NumPy and basic machine learning concepts
+- basic command line familiarity is recommended
 
 ## Using Google Colab
 
@@ -24,6 +26,7 @@ The tutorial is designed to run in a browser-based GPU environment. The recommen
 - If a package install fails, rerun the setup cell and restart the runtime.
 - GPU availability in Colab can vary by account and usage limits.
 - The tutorial materials are notebook-based, so no local installation is required for the core hands-on session.
+- The notebooks are intended to run in a reproducible, cloud-ready environment with browser access to GPU resources.
 
 ## Notebook links
 
