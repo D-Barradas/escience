@@ -5,14 +5,14 @@ nav_order: 1
 
 # eScience 2026 Tutorial
 
-## Fundamentals of Accelerated Data Science
+## Accelerated Data Science with RAPIDS
 
 This site hosts the web materials for the eScience 2026 tutorial on GPU-accelerated data science. It combines the current tutorial proposal, the hands-on notebook links, and the practical information attendees need before and during the session.
 
 ## Event details
 
 - **Event:** eScience 2026
-- **Tutorial:** Fundamentals of Accelerated Data Science
+- **Tutorial:** Accelerated Data Science with RAPIDS
 - **Presenter:** Didier Barradas-Bautista
 - **Affiliation:** KAUST Visualization Core Lab
 - **Date:** TBD
@@ -22,7 +22,7 @@ This site hosts the web materials for the eScience 2026 tutorial on GPU-accelera
 
 Participants will work through GPU-accelerated data science workflows with the NVIDIA RAPIDS ecosystem, including:
 
-- data processing and feature engineering with cuDF and Dask
+- data processing and feature engineering with cuDF
 - machine learning workflows with cuML and GPU-enabled XGBoost
 - graph analytics with cuGraph
 - a compact advanced extension on distributed hyperparameter optimization with Ray Tune and selected Skorch/PyTorch patterns
