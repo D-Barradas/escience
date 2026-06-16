@@ -22,11 +22,11 @@ This site hosts the web materials for the eScience 2026 tutorial on GPU-accelera
 
 Participants will work through GPU-accelerated data science workflows with the NVIDIA RAPIDS ecosystem, including:
 
-- data processing and feature engineering with cuDF
-- machine learning workflows with cuML and GPU-enabled XGBoost
-- graph analytics with cuGraph
-- a compact advanced extension on distributed hyperparameter optimization with Ray Tune and selected Skorch/PyTorch patterns
-- practical guidance for reproducible, performance-aware data science in cloud-ready notebooks
+- Data processing and feature engineering with cuDF
+- Machine learning workflows with cuML and GPU-enabled XGBoost
+- Graph analytics with cuGraph
+- A compact advanced extension on distributed hyperparameter optimization with Ray Tune and selected Skorch/PyTorch patterns
+- Practical guidance for reproducible, performance-aware data science in cloud-ready notebooks
 
 ## Site navigation
 
