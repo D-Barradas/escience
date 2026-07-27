@@ -35,6 +35,7 @@ The tutorial is designed to run in a browser-based GPU environment. The recommen
 
 ## Notebook links
 
-- [Tutorial 1: Scikit-learn + RAPIDS](tutorials/tutorial-1.md)
-- [Tutorial 2: Ray Tune + RAPIDS](tutorials/tutorial-2.md)
-- [Tutorial 3: Skorch + RAPIDS](tutorials/tutorial-3.md)
+- [Tutorial 1: Fundamentals of RAPIDS](tutorials/tutorial-1.md)
+- [Tutorial 2: Graph analytics](tutorials/tutorial-2.md)
+- [Tutorial 3: Machine learning](tutorials/tutorial-3.md)
+- [Tutorial 4: Advanced extension](tutorials/tutorial-4.md)
