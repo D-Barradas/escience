@@ -37,8 +37,8 @@ Half-day, hands-on tutorial with about 3 hours of instruction, a 10-minute break
 | 0 | Environment setup | 15 min | Access cloud GPU notebooks, verify dependencies and datasets, and review the collaboration workflow |
 | 1 | RAPIDS Core I: DataFrames at scale | 40 min | RAPIDS architecture, CPU-to-GPU mapping, cuDF transformations, Dask-enabled execution, and timing comparisons |
 | - | Break | 10 min | Short break |
-| 2 | RAPIDS Core II: ML on GPUs | 40 min | GPU-native ML workflows, hands-on cuML exercises, and GPU-enabled XGBoost evaluation |
-| 3 | RAPIDS Core III: Graph analytics | 30 min | Graph analytics use cases for scientific data and cuGraph algorithms |
+| 2 | RAPIDS Core II: Graph analytics | 30 min | Graph analytics use cases for scientific data and cuGraph algorithms |
+| 3 | RAPIDS Core III: ML on GPUs | 40 min | GPU-native ML workflows, hands-on cuML exercises, and GPU-enabled XGBoost evaluation |
 | 4 | Advanced extension: Distributed HPO | 30 min | Search strategies, pruning, Ray Tune integration, and an optional Skorch/PyTorch tuning demo |
 | 5 | Wrap-up and Q&A | 15 min | Workflow recap, key takeaways, discussion, and questions |
 
