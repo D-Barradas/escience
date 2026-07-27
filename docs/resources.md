@@ -7,10 +7,12 @@ nav_order: 7
 
 ## Tutorial materials
 
-- [Tutorial 1: Scikit-learn + RAPIDS](tutorials/tutorial-1.md)
-- [Tutorial 2: Ray Tune + RAPIDS](tutorials/tutorial-2.md)
-- [Tutorial 3: Skorch + RAPIDS](tutorials/tutorial-3.md)
-- [Source repository: D-Barradas/RAPIDS_HPO](https://github.com/D-Barradas/RAPIDS_HPO)
+- [Tutorial 1: Fundamentals of RAPIDS](tutorials/tutorial-1.md)
+- [Tutorial 2: Graph analytics](tutorials/tutorial-2.md)
+- [Tutorial 3: Machine learning](tutorials/tutorial-3.md)
+- [Tutorial 4: Advanced extension](tutorials/tutorial-4.md)
+- [Source repository: D-Barradas/Accelerated-Data-Science-with-RAPIDS](https://github.com/D-Barradas/Accelerated-Data-Science-with-RAPIDS)
+- [Alternative source repository: D-Barradas/RAPIDS_HPO](https://github.com/D-Barradas/RAPIDS_HPO)
 
 ## Reference links
 
