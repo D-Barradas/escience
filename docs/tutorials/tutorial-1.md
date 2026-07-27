@@ -5,11 +5,26 @@ nav_order: 4
 
 # Tutorial 1
 
-## Hyperparameter Optimization with Scikit-learn and RAPIDS
+## DataFrames at Scale
 
-This notebook introduces a practical GPU-accelerated workflow for model development using familiar Scikit-learn patterns together with RAPIDS components.
+These notebooks introduce data acquisition, exploration, in-
+dexing, filtering, aggregation, and feature creation with cuDF.
+Participants compare familiar CPU-style patterns with GPU-
+executed alternatives, then extend to Dask-cuDF for distributed
+workflows, including scheduler setup, task graph inspection,
+and persist/compute patterns.
+.
+-  cuDF basics, data manipulation, filtering, aggregation, CPU-style comparisons 
+- <a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part1/1-02_data_manipulation_colab.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+-  Polars intro + cuDF Polars GPU engine patterns 
+- <a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part1/1-02_cudf-polars.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+-  Dask-cuDF cluster setup, task graph, persist/compute, distributed dataframe practice 
+- <a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part1/1-09_dask-cudf.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
-<a href="https://colab.research.google.com/github/D-Barradas/RAPIDS_HPO/blob/main/notebooks/HPO_Sklearn_RAPIDS.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+
+
+
+
 
 ## What you will do
 
