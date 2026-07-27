@@ -5,20 +5,18 @@ nav_order: 5
 
 # Tutorial 2
 
-## Hyperparameter Optimization with Ray Tune and RAPIDS
+## Graph analytics
 
-This notebook extends the hands-on workflow to distributed and scalable hyperparameter search using Ray Tune together with GPU-accelerated data science tools.
+The second block focuses on graph construction and analysis with cuGraph, including shortest-path style analytics and weighted-travel-time examples. The workflow also introduces interoperability patterns through NetworkX backend acceleration with nx-cugraph for users maintaining existing NetworkX code.
 
-<a href="https://colab.research.google.com/github/D-Barradas/RAPIDS_HPO/blob/main/notebooks/HPO_Ray_RAPIDS.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+- cuGraph intro, graph construction, basic algorithms ([pagerank, connected components](https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-01_prep_graph.ipynb)) 
+- <a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-01_prep_graph.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+- Graph construction, shortest path and weighted travel-time workflows (https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-01_prep_graph.ipynb)
+-<a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-01_prep_graph.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+- NetworkX backend acceleration with nx-cugraph, centrality workflows (https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-03_networkx_cugraph.ipynb)
+-<a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-03_networkx_cugraph.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
-## What you will do
-
-- run a Colab notebook that combines RAPIDS and Ray Tune
-- explore scalable experiment management
-- compare tuning workflows for GPU-enabled models
-- reuse the notebook as a template for larger studies
 
 ## Notebook source
 
-- [Notebook in GitHub repository](https://github.com/D-Barradas/RAPIDS_HPO/blob/main/notebooks/HPO_Ray_RAPIDS.ipynb)
-- [Repository root](https://github.com/D-Barradas/RAPIDS_HPO)
+- [Repository root](https://github.com/D-Barradas/Accelerated-Data-Science-with-RAPIDS)
