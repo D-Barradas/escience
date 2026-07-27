@@ -15,8 +15,8 @@ This site hosts the web materials for the eScience 2026 tutorial on GPU-accelera
 - **Tutorial:** Accelerated Data Science with RAPIDS
 - **Presenter:** Didier Barradas-Bautista
 - **Affiliation:** KAUST Visualization Core Lab
-- **Date:** TBD
-- **Location:** TBD
+- **Date:** Tuesday September 29, 2026 , 14:00 - 17:00
+- **Location:** Room: AWS
 
 ## What this tutorial covers
 
@@ -32,9 +32,10 @@ Participants will work through GPU-accelerated data science workflows with the N
 
 - [Setup instructions](setup.md)
 - [Syllabus and schedule](syllabus.md)
-- [Tutorial 1: Scikit-learn + RAPIDS](tutorials/tutorial-1.md)
-- [Tutorial 2: Ray Tune + RAPIDS](tutorials/tutorial-2.md)
-- [Tutorial 3: Skorch + RAPIDS](tutorials/tutorial-3.md)
+- [Part 1: Foundations, data engineering, scale](tutorials/tutorial-1.md)
+- [Part 2: Graph analytics ](tutorials/tutorial-2.md)
+- [Part 3: Machine learning](tutorials/tutorial-3.md)
+- [Part 4: Advanced extension](tutorials/tutorial-4.md)
 - [Resources](resources.md)
 - [FAQ](faq.md)
 
@@ -42,8 +43,9 @@ Participants will work through GPU-accelerated data science workflows with the N
 
 The hands-on materials are based on the Google Colab notebooks used in the tutorial:
 
-1. [Tutorial 1](tutorials/tutorial-1.md): Hyperparameter optimization with Scikit-learn and RAPIDS
-2. [Tutorial 2](tutorials/tutorial-2.md): Hyperparameter optimization with Ray Tune and RAPIDS
-3. [Tutorial 3](tutorials/tutorial-3.md): Deep learning workflows with Skorch and RAPIDS
+1. [Part 1](tutorials/tutorial-1.md): RAPIDS Core I: DataFrames at Scale
+2. [Part 2](tutorials/tutorial-2.md): RAPIDS Core III: Graph Analytics
+3. [Part 3](tutorials/tutorial-3.md): RAPIDS Core II: Machine Learning on GPUs
+4. [Part 4](tutorials/tutorial-4.md): Advanced Extension: Distributed Hyperparameter Optimization
 
-The source repository for the materials is available at [D-Barradas/RAPIDS_HPO](https://github.com/D-Barradas/RAPIDS_HPO).
+The source repository for the materials is available at [D-Barradas/Accelerated-Data-Science-with-RAPIDS](https://github.com/D-Barradas/Accelerated-Data-Science-with-RAPIDS).
