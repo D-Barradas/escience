@@ -7,9 +7,13 @@ nav_order: 7
 
 ## Deep Learning Workflows with Skorch and RAPIDS
 
-This notebook focuses on model development workflows that combine Skorch with GPU-enabled tooling, giving attendees a reusable pattern for deep learning experimentation in notebook form.
+This notebook focuses on model development workflows that combine Skorch with GPU-enabled tooling, giving attendees a reusable pattern for deep learning experimentation in notebook form. 
 
-<a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part4/4-01_HPO_Ray_RAPIDS_MNIST.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+**Skorch** is a high-level library for building and training neural networks in PyTorch. It provides a scikit-learn-like interface for PyTorch, making it easier to integrate with other libraries in the Python ecosystem. Skorch allows users to leverage the power of PyTorch while benefiting from the simplicity and ease of use of scikit-learn.
+
+The aim is to keep 99% of the flexibility of PyTorch while being able to leverage most features of scikit-learn.
+
+<a href="https://colab.research.google.com/github/D-Barradas/RAPIDS_HPO/blob/main/notebooks/HPO_Skorch_RAPIDS.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
 ##  Distributed Hyperparameter Optimization with Ray Tune and RAPIDS
 
@@ -18,6 +22,20 @@ This notebook focuses on model development workflows that combine Skorch with GP
 &emsp; &emsp; &emsp; [RayTune](https://ray.readthedocs.io/en/latest/index.html) is a scalable Hyperparameter optimization library. It allows distributed HPO, provides various [search algorithms](https://ray.readthedocs.io/en/latest/tune-searchalg.html) to allow different optimization techniques to be explored with ease. The library also provides [scheduling algorithms](https://ray.readthedocs.io/en/latest/tune-schedulers.html) that allows a smarter way to schedule the different parameter sweep instead of the basic First In-First Out method which is followed by other libraries (Scikit-Learn, Dask-ml) that support HPO. The different scheduling algorithms can make the HPO process resource efficient and help arrive at the best parameters much faster.
 
 <a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part4/4-02_HPO_Ray_RAPIDS_MNIST.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+
+
+## High-Throughput HPO using Ray Tune and Fractional GPU Allocation with RAPIDS & PyTorch
+
+This notebook demonstrates how to use Ray Tune for high-throughput hyperparameter optimization while leveraging fractional GPU allocation with RAPIDS and PyTorch.
+
+<a href="https://github.com/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part4/4-04_HPO_RayTune_Fractional_GPU_RAPIDS.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+
+## Zero-Copy Deep Tabular Learning with RAPIDS, Optuna, and PyTorch Lightning
+
+Normally, moving data from a GPU DataFrame into a PyTorch tensor means: copy GPU -> host RAM (as pandas/NumPy), then copy host RAM -> GPU again for torch. For a dataset with millions of rows, that round-trip dominates preprocessing time and doubles peak memory usage.
+
+**DLPack** is an open, framework-agnostic tensor memory standard. cudf can export a DataFrame's underlying GPU buffer as a DLPack capsule with to_dlpack(), and PyTorch can import that exact same GPU memory with torch.utils.dlpack.from_dlpack() — no host copy, no new GPU allocation, just a reinterpretation of the existing buffer as a torch.Tensor.
+
 
 ## What you will do
 
