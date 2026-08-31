@@ -11,10 +11,10 @@ The second block focuses on graph construction and analysis with cuGraph, includ
 
 - cuGraph intro, graph construction, basic algorithms ([pagerank, connected components](https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-01_prep_graph.ipynb)) 
 - <a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-01_prep_graph.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
-- Graph construction, shortest path and weighted travel-time workflows (https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-01_prep_graph.ipynb)
--<a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-01_prep_graph.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
-- NetworkX backend acceleration with nx-cugraph, centrality workflows (https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-03_networkx_cugraph.ipynb)
--<a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-03_networkx_cugraph.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+- Graph construction, shortest path and weighted travel-time workflows 
+<a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-01_prep_graph.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+- NetworkX backend acceleration with nx-cugraph, centrality workflows 
+<a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part2/2-03_networkx_cugraph.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
 
 ## Notebook source
