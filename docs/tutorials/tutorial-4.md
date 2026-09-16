@@ -28,7 +28,7 @@ The aim is to keep 99% of the flexibility of PyTorch while being able to leverag
 
 This notebook demonstrates how to use Ray Tune for high-throughput hyperparameter optimization while leveraging fractional GPU allocation with RAPIDS and PyTorch.
 
-<a href="https://github.com/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part4/4-04_HPO_RayTune_Fractional_GPU_RAPIDS.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+<a href="https://colab.research.google.com/github/D-Barradas/Accelerated-Data-Science-with-RAPIDS/blob/main/part4/4-04_HPO_RayTune_Fractional_GPU_RAPIDS.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
 ## Zero-Copy Deep Tabular Learning with RAPIDS, Optuna, and PyTorch Lightning
 
